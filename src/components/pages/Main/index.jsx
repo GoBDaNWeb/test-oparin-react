@@ -17,7 +17,7 @@ import SecondText from '../../ui/SecondText';
 const featuresList = [
     {
         title: (
-            <Title>
+            <Title varinat="h3">
                 Быстрый <br /> заказ
             </Title>
         ),
@@ -32,7 +32,7 @@ const featuresList = [
     },
     {
         title: (
-            <Title>
+            <Title varinat="h3">
                 Соблюдаем <br /> сроки
             </Title>
         ),
@@ -42,7 +42,7 @@ const featuresList = [
     },
     {
         title: (
-            <Title>
+            <Title varinat="h3">
                 Мы производители <br /> лодок
             </Title>
         ),
@@ -57,7 +57,7 @@ const featuresList = [
     },
     {
         title: (
-            <Title>
+            <Title varinat="h3">
                 Наши акции <br /> и специальные <br /> предложения
             </Title>
         ),

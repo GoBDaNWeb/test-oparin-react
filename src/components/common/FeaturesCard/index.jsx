@@ -5,7 +5,7 @@ const FeaturesCard = ({ title, content, img, styles }) => {
     return (
         <div className="feature" style={styles}>
             {title}
-            {content}
+            {content && content}
             {img}
         </div>
     );
