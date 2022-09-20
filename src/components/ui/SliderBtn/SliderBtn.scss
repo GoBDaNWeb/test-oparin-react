@@ -1,0 +1,16 @@
+.slider-btn {
+    text-transform: uppercase;
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 1rem 1.8rem;
+    border-radius: 999px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 300ms ease;
+
+    &:hover {
+        color: #e31e25;
+        background: #fff;
+    }
+}

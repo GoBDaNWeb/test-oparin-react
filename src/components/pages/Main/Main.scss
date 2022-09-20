@@ -1,0 +1,46 @@
+.main {
+    width: 100%;
+    &-hero {
+        .slider {
+            margin-top: 8rem;
+            background: #e31e25;
+            width: 90%;
+            height: 400px;
+            border-radius: 0.5rem;
+            padding: 4rem;
+            position: relative;
+            .boat {
+                position: absolute;
+                right: 3rem;
+                bottom: 0;
+            }
+            .person {
+                position: absolute;
+                right: 1rem;
+                bottom: 0;
+            }
+            &-content {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                gap: 1.5rem;
+                .price {
+                    color: #fff;
+                    .old-price {
+                        text-decoration: line-through;
+                    }
+                }
+                .slider-arrows {
+                    display: flex;
+                    gap: 2rem;
+                }
+            }
+        }
+    }
+    &-features__list {
+        display: flex;
+        gap: 2rem;
+        margin-top: 3rem;
+    }
+}

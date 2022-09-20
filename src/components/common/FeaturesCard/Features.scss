@@ -1,0 +1,17 @@
+.feature {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 220px;
+    border-radius: 0.5rem;
+    position: relative;
+    padding: 1rem;
+    .title {
+        text-align: left;
+    }
+    &-img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}

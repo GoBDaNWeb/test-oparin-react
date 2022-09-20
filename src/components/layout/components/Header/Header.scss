@@ -1,0 +1,65 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    &-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &__info {
+            display: flex;
+            gap: 6rem;
+            span {
+                display: flex;
+                align-items: center;
+                gap: 0.2rem;
+            }
+        }
+        &__features {
+            display: flex;
+            gap: 0.8rem;
+            span {
+                display: flex;
+                align-items: center;
+                gap: 0.2rem;
+            }
+            .features__links {
+                display: flex;
+                align-items: center;
+                gap: 0.6rem;
+                & * {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    &-bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &__left {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        &__right {
+            display: flex;
+            gap: 2.6rem;
+            button {
+                position: relative;
+                background: none;
+                border: none;
+                cursor: pointer;
+                span {
+                    border-radius: 9999px;
+                    background: #fff;
+                    width: 14px;
+                    height: 18px;
+                    position: absolute;
+                    top: -0.5rem;
+                    right: 0;
+                }
+            }
+        }
+    }
+}
