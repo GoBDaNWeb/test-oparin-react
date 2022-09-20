@@ -1,6 +1,7 @@
 // * assets
 import boat from '../../../../../assets/boat.png';
 import person from '../../../../../assets/person.png';
+import calc from '../../../../../assets/calc.svg';
 
 // * styles
 import './Hero.scss';
@@ -39,6 +40,7 @@ const Hero = () => {
                 <img src={boat} className="boat" alt="boat" />
                 <img src={person} className="person" alt="person" />
             </div>
+            <img src={calc} className="calc" alt="calc" />
         </div>
     );
 };
